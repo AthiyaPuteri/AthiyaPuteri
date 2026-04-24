@@ -79,16 +79,6 @@
 
 ---
 
-### 📈 Time Series Forecasting
-<img src="https://via.placeholder.com/900x400" />
-
-- Forecasted diesel prices using **TensorFlow**
-- Built deep learning time series models
-- Performed preprocessing & trend analysis
-- Evaluated with multiple metrics
-
----
-
 ## 📊 GitHub Stats
 
 <p align="center">
@@ -102,7 +92,7 @@
 
 - 🎓 Master's in **Medical AI**
 - 🧠 Build AI for **healthcare impact**
-- 💼 Specialized **AI Virtual Assistant**
+- 💼 Specialized **AI**
 
 ---
 
