@@ -62,20 +62,104 @@
 ### 🧬 Skin Cancer Classification
 <img src="https://via.placeholder.com/900x400" />
 
-- CNN model using **ResNet50**
-- Fine-tuning for improved accuracy
-- Tackled overfitting with augmentation & dropout
-- Focus on **medical image classification**
+This project focuses on building an AI system to classify skin lesions into **benign and malignant categories**, aiming to support early detection of skin cancer.
+
+I developed a deep learning pipeline using a **Convolutional Neural Network (CNN) with the ResNet50 architecture**. Instead of using it as-is, I applied **fine-tuning strategies**, gradually unfreezing layers to improve performance while maintaining learned features.
+
+One of the main challenges in this project was **overfitting**, especially due to limited and sensitive medical data. To address this, I implemented:
+- Data augmentation (rotation, zoom, shifting, flipping)
+- Dropout regularization
+- Careful tuning of learning rates and training stages
+
+Additionally, I performed structured preprocessing and ensured that validation data remained clean (no augmentation leakage), making the evaluation more reliable.
+
+📊 **Outcome:**
+- Achieved stable model performance with improved generalization
+- Gained deeper insight into **medical image classification challenges**
+- Explored the trade-offs between **model complexity and overfitting**
+
+🎯 **Impact:**
+This project reflects my interest in **Medical AI**, particularly in building systems that can assist healthcare professionals in diagnosis and decision-making.
+
+---
+---
+
+### 📄 OCR & Document AI System
+<img src="https://via.placeholder.com/900x400" />
+
+This project is an end-to-end **OCR (Optical Character Recognition) and Document AI system** designed to extract, understand, and structure information from complex documents such as PDFs and scanned files.
+
+Instead of focusing on simple text recognition, this system aims to handle **real-world documents** that contain mixed content like paragraphs, tables, and structured data.
 
 ---
 
-### 📄 Document AI - Table Extraction
-<img src="https://via.placeholder.com/900x400" />
+### ⚙️ Core Features
 
-- Combined **Transformer + LLaMA**
-- Extracted tables from complex PDFs
-- Solved issues with inconsistent layouts
-- Focus on **structured data extraction**
+#### 📝 Text Extraction (OCR)
+- Extracts raw text from scanned documents and PDFs
+- Handles noisy inputs and varying text quality
+- Forms the foundation for downstream processing
+
+---
+
+#### 📊 Table Extraction (Advanced)
+- Detects and extracts tables from documents with **varied and inconsistent layouts**
+- Handles challenges like:
+  - Irregular column alignment
+  - Merged or missing cells
+  - Different table formats across pages
+- Combines **Transformer-based layout detection** with **LLM (LLaMA) reasoning** to reconstruct structured tables
+
+---
+
+#### 🧠 Document Understanding (LLM Integration)
+- Uses **LLaMA** to interpret extracted content
+- Converts raw OCR output into more meaningful, structured information
+- Enables semantic understanding beyond simple text extraction
+
+---
+
+#### 🗂️ Structured Data Output
+- Converts extracted content into structured formats such as:
+  - JSON
+  - Key-value pairs
+  - Clean tabular data
+- Makes the data ready for downstream applications (analytics, databases, automation)
+
+---
+
+#### 🔍 Multi-Layout Handling
+- Designed to process documents with:
+  - Different layouts per page
+  - Mixed content (text + tables + sections)
+- Moves beyond rule-based systems into more adaptive AI-based processing
+
+---
+
+### 🚧 Challenges & Research Focus
+
+One of the biggest challenges in this project is that **every document is different**. Unlike images or standard datasets, document structures are highly inconsistent.
+
+Key difficulties include:
+- Detecting tables reliably across different formats
+- Maintaining correct structure during extraction
+- Aligning outputs between Transformer models and LLM reasoning
+
+This project involves continuous experimentation to improve:
+- Model consistency
+- Layout detection accuracy
+- Structured reconstruction quality
+
+---
+
+### 🎯 Impact
+
+This system is designed for real-world applications such as:
+- 📑 Business document digitization  
+- 🏢 Automated data entry & processing  
+- 📊 Converting unstructured PDFs into usable datasets  
+
+It reflects my work in combining **Computer Vision + NLP + LLMs** into a unified AI system.
 
 ---
 
