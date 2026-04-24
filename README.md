@@ -28,11 +28,11 @@
 <img align="right" width="300" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif"/>
 
 - 🎓 Computer Science Graduate  
-- 🔬 Working on **Skin Cancer Classification using ResNet50**  
+- 🔬 Working on **OCR Application**  
 - 🧪 Focused on **Fine-Tuning & Model Optimization**  
-- 📊 Interested in **Deep Learning & Data Analysis**  
+- 📊 Interested in **Artificial Intelligence**  
 - 🧩 Exploring **LLM Systems (RAG, LLaMA)**  
-- 💼 Aspiring **Virtual Assistant in Tech & AI Industry**  
+- 💼 Aspiring **Tech & AI Industry**  
 
 ---
 
